@@ -1,0 +1,61 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>Crystal Collector</title>
+  <link rel='stylesheet' href='assets/css/reset.css' />
+  <link rel='stylesheet' href='assets/css/style.css' />
+
+</head>
+<body>
+  <header class='Header'>
+    <h1>Cage Collector</h1>
+  </header>
+  <main class='Main'>
+    <section class="Section--top">
+    <aside class='Aside'>
+      <h3 class='Aside--h3'>Instructions:</h3>
+      <ol class='Aside--ol'>
+        <li>
+          Start with a random number
+        </li>
+        <li>
+          Click a cage to add to your total
+        </li>
+        <li>
+          Win by matching your total to random number
+        </li>
+        <li>
+          Each cage has a different value
+        </li>
+        <li>
+          When game restarts, cage values change
+        </li>
+      </ol>
+    </aside>
+    <article class='Article--top'>
+      <img src='http://www.placecage.com/150/150' alt='One and only Nic Cage' />
+      <img src='http://www.placecage.com/g/150/150' alt='One and only Nic Cage' />
+      <img src='http://www.placecage.com/c/150/150' alt='One and only Nic Cage' />
+      <img src='http://www.placecage.com/gif/150/150' alt='One and only Nic Cage' />
+    </article>
+  </section>
+  <section class='Section--bottom'>
+    <div class='Div--bottom'>
+      <h5>Random Number: </h5>
+      <p id='randomNumber'>???</p>
+    </div>
+    <div class='Div--bottom'>
+      <h5>Guesses Left: <span id='guessesLeft'></span></h5>
+      <p>Wins: <span id="wins">0</span></p>
+      <p>Losses: <span id="losses">0</span></p>
+    </div>
+    <div class='Div--bottom'>
+      <h5>Player Total: </h5>
+      <p id='playerTotal'>0</p>
+    </div>
+  </section>
+  </main>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='assets/js/game.js'></script>
+</body>
+</html>

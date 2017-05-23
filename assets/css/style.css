@@ -1,0 +1,91 @@
+body {
+  font-family: monospace;
+  background-image: url('../images/background.jpg');
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 2em;
+}
+
+.Main {
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 5px grey;
+  width: 90%;
+  margin: 1em auto;
+  min-height: 500px;
+}
+
+.Header {
+  background-color: skyblue;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.18);
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  font-family: Arial;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+}
+
+.Aside {
+  width: 30%;
+  display: inline-block;
+}
+
+.Aside--h3 {
+  font-size: 1.75em;
+  padding: .5em;
+}
+
+.Aside--ol li{
+  margin: 10px 5px;
+  font-size: 1.2em;
+}
+
+.Section--top {
+  height: 200px;
+  padding: 1em;
+}
+
+.Article--top {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 3em;
+  height: 100%;
+}
+
+.Article--top img {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.Article--top img:hover {
+  opacity: .7;
+}
+
+.Section--bottom {
+  height: 200px;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.Div--bottom {
+  width: 32%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid lightslategray;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.18);
+  background-color: gainsboro;
+}
+
+.Div--bottom h5 {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.Div--bottom p {
+  font-size: 2em;
+}
