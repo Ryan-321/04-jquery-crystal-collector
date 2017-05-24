@@ -56,11 +56,23 @@ ol {
 
 .Article--top img {
   cursor: pointer;
+  position: relative;
+  border: 1px solid grey;
   margin: 0 5px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.18);
 }
 
 .Article--top img:hover {
-  opacity: .7;
+  opacity: .9;
+  top: -3px;
+}
+
+.Article--top img:active {
+  top: 0;
+  bottom: -5px;
+  border: 1px inset grey;
+  box-shadow: none;
 }
 
 .Section--bottom {
